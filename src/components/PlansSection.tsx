@@ -28,29 +28,29 @@ const plans = [
 const PlansSection = () => {
   return (
     <section className="bg-background px-4 py-20 md:py-28">
-      <div className="max-w-3xl mx-auto space-y-10">
-        {plans.map((plan, i) => (
-          <div
-            key={i}
-            className={`flex flex-col md:flex-row items-center gap-6 ${
-              plan.align === "right" ? "md:flex-row-reverse" : ""
-            }`}
-          >
-            {/* Plan image placeholder */}
-            <div className="w-48 h-32 rounded-xl bg-accent border border-border flex items-center justify-center shrink-0">
-              <span className="text-muted-foreground font-body text-xs">Imagem</span>
-            </div>
+      <div className="max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {plans.map((plan, i) => (
+            <div
+              key={i}
+              className="border border-border rounded-lg p-8 flex flex-col"
+            >
+              {/* Plan image placeholder */}
+              <div className="w-full h-40 rounded-lg bg-accent border border-border flex items-center justify-center mb-6">
+                <span className="text-muted-foreground font-body text-xs">Imagem</span>
+              </div>
 
-            <div className={`text-${plan.align === "right" ? "right" : "left"} flex-1`}>
-              <h3 className="font-elegant text-3xl md:text-4xl italic text-foreground mb-2">
-                {plan.name}
-              </h3>
-              <p className="font-body text-sm text-muted-foreground leading-relaxed max-w-sm">
-                {plan.description}
-              </p>
+              <div className="flex-1">
+                <h3 className="font-elegant text-2xl md:text-3xl italic text-foreground mb-3">
+                  {plan.name}
+                </h3>
+                <p className="font-body text-sm text-muted-foreground leading-relaxed">
+                  {plan.description}
+                </p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );
