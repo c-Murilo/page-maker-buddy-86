@@ -1,13 +1,13 @@
 const HeroSection = () => {
   return (
-    <section className="relative w-full">
-      {/* Photo placeholder - full width */}
-      <div className="w-full h-80 md:h-96 bg-accent border-b border-border flex items-center justify-center">
+    <section className="relative w-full h-80 md:h-96">
+      {/* Photo placeholder - full background */}
+      <div className="absolute inset-0 w-full h-full bg-accent border-b border-border flex items-center justify-center">
         <span className="text-muted-foreground font-body text-sm">Foto principal</span>
       </div>
 
       {/* Content overlay */}
-      <div className="flex flex-col items-center justify-center bg-card px-4 py-16">
+      <div className="absolute inset-0 flex flex-col items-center justify-center px-4">
         <p className="font-body text-xs tracking-[0.3em] uppercase text-muted-foreground mb-8">
           Bem-vindo
         </p>
