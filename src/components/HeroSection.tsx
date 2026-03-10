@@ -7,7 +7,7 @@ const HeroSection = () => {
       <img
         src={heroPhoto}
         alt="Laís Correia"
-        className="absolute inset-0 w-full h-full object-cover blur-[2px] scale-105 origin-top"
+        className="absolute inset-0 w-full h-full object-cover blur-[2px] scale-90 origin-top"
         style={{ objectPosition: '50% 30%' }}
       />
       {/* Dark overlay for text readability */}
