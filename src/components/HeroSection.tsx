@@ -19,7 +19,7 @@ const HeroSection = () => {
           Bem-vindo
         </p>
 
-        <h1 className="font-display text-4xl md:text-6xl font-medium text-primary-foreground tracking-tight text-center drop-shadow-md">
+        <h1 className="font-display text-4xl md:text-6xl font-medium text-primary-foreground tracking-tight text-center drop-shadow-md whitespace-nowrap">
           Laís Correia
         </h1>
         <p className="font-body text-xs md:text-sm tracking-[0.25em] uppercase text-primary-foreground/80 mt-3 text-center">
