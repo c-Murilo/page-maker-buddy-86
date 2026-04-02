@@ -1,7 +1,6 @@
 import planPremium from "@/assets/plan-premium.png";
 import planEssence from "@/assets/plan-essence.png";
 import planStart from "@/assets/plan-start.png";
-import planCombo from "@/assets/plan-combo.png";
 
 const plans = [
   {
@@ -25,26 +24,18 @@ const plans = [
     image: planStart,
     position: "center 35%",
   },
-  {
-    name: "Combo Kit",
-    description:
-      "Ideal para quem deseja o pacote completo com todas as ferramentas necessárias.",
-    image: planCombo,
-    position: "center 30%",
-  },
 ];
 
 const PlansSection = () => {
   return (
     <section className="bg-background px-4 py-20 md:py-28">
       <div className="max-w-4xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {plans.map((plan, i) => (
             <div
               key={i}
               className="border border-border rounded-lg p-8 flex flex-col"
             >
-              {/* Plan image */}
               <div className="w-full h-40 rounded-lg overflow-hidden border border-border mb-6">
                 <img src={plan.image} alt={plan.name} className="w-full h-full object-cover" style={{ objectPosition: plan.position }} />
               </div>

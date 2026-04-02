@@ -1,3 +1,5 @@
+import planCombo from "@/assets/plan-combo.png";
+
 const AboutSection = () => {
   return (
     <section className="bg-card px-4 py-20 md:py-28">
@@ -7,9 +9,8 @@ const AboutSection = () => {
         </h2>
 
         <div className="mt-10 flex flex-col md:flex-row gap-10 items-center">
-          {/* Photo placeholder */}
-          <div className="w-56 h-72 rounded-2xl bg-accent border border-border flex items-center justify-center shrink-0">
-            <span className="text-muted-foreground font-body text-sm">Foto</span>
+          <div className="w-56 h-72 rounded-2xl overflow-hidden border border-border shrink-0">
+            <img src={planCombo} alt="Sobre mim" className="w-full h-full object-cover object-center" />
           </div>
 
           <div className="flex-1">
