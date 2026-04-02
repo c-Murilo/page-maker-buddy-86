@@ -42,7 +42,7 @@ const PlansSection = () => {
             >
               {/* Plan image */}
               <div className="w-full h-40 rounded-lg overflow-hidden border border-border mb-6">
-                <img src={plan.image} alt={plan.name} className="w-full h-full object-cover object-top" />
+                <img src={plan.image} alt={plan.name} className="w-full h-full object-cover object-center" />
               </div>
 
               <div className="flex-1">
