@@ -10,7 +10,7 @@ const AboutSection = () => {
 
         <div className="mt-10 flex flex-col md:flex-row gap-10 items-center">
           <div className="w-56 h-72 rounded-2xl overflow-hidden border border-border shrink-0">
-            <img src={planCombo} alt="Sobre mim" className="w-full h-full object-cover object-center" />
+            <img src={aboutPhoto} alt="Sobre mim" className="w-full h-full object-cover object-center" />
           </div>
 
           <div className="flex-1">
