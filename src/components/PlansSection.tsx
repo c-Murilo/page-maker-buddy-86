@@ -1,27 +1,32 @@
+import planPremium from "@/assets/plan-premium.png";
+import planEssence from "@/assets/plan-essence.png";
+import planStart from "@/assets/plan-start.png";
+import planCombo from "@/assets/plan-combo.png";
+
 const plans = [
   {
     name: "Premium",
     description:
       "Esse plano é perfeito para você que já tem um escritório e deseja desligar totalmente das funções do financeiro.",
-    align: "left" as const,
+    image: planPremium,
   },
   {
     name: "Essence",
     description:
       "Esse plano é para com que deseja organizar seu financeiro, mas precisa controlar de conta em relação ao pagamento.",
-    align: "right" as const,
+    image: planEssence,
   },
   {
     name: "Start",
     description:
       "Esse plano ideal para você que está abrindo um estúdio, a pouco não sabe por como começou para iniciar com as finanças.",
-    align: "left" as const,
+    image: planStart,
   },
   {
     name: "Combo Kit",
     description:
       "Ideal para quem deseja o pacote completo com todas as ferramentas necessárias.",
-    align: "right" as const,
+    image: planCombo,
   },
 ];
 
@@ -35,9 +40,9 @@ const PlansSection = () => {
               key={i}
               className="border border-border rounded-lg p-8 flex flex-col"
             >
-              {/* Plan image placeholder */}
-              <div className="w-full h-40 rounded-lg bg-accent border border-border flex items-center justify-center mb-6">
-                <span className="text-muted-foreground font-body text-xs">Imagem</span>
+              {/* Plan image */}
+              <div className="w-full h-40 rounded-lg overflow-hidden border border-border mb-6">
+                <img src={plan.image} alt={plan.name} className="w-full h-full object-cover object-top" />
               </div>
 
               <div className="flex-1">
