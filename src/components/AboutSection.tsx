@@ -14,12 +14,13 @@ const AboutSection = () => {
           </div>
 
           <div className="flex-1">
-            <p className="font-body text-sm text-muted-foreground leading-relaxed">
-              Digite aqui um breve texto se apresentando...Este espaço foi criado para
-              destacar quem você é, o que faz e como pode transformar a vida das suas
-              clientes. No passo a passo da BIO Vitrine, você vai aprender exatamente como
-              preencher esse campo de forma estratégica, transmitindo confiança e
-              profissionalismo — mesmo sem saber escrever textos prontos.
+            <p className="font-body text-sm text-muted-foreground text-justify  leading-relaxed">
+             Contadora especializada em transformar números em decisões inteligentes.
+Ajudo empreendedoras e empresas a organizarem suas finanças, reduzirem impostos de forma legal e crescerem com segurança.
+
+Acredito que uma contabilidade bem feita vai além de obrigações fiscais — ela traz clareza, tranquilidade e direcionamento para o seu negócio prosperar.
+
+Se você busca organização, estratégia e confiança para evoluir financeiramente, estou aqui para te ajudar.
             </p>
           </div>
         </div>
