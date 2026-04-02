@@ -1,4 +1,4 @@
-import planCombo from "@/assets/plan-combo.png";
+import aboutPhoto from "@/assets/about-photo.png";
 
 const AboutSection = () => {
   return (
