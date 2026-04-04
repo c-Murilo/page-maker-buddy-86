@@ -9,8 +9,8 @@ const AboutSection = () => {
         </h2>
 
         <div className="mt-10 flex flex-col md:flex-row gap-10 items-center">
-          <div className="w-56 h-72 rounded-2xl overflow-hidden border border-border shrink-0">
-            <img src={aboutPhoto} alt="Sobre mim" className="w-full h-full object-cover object-center" />
+          <div className="w-56 rounded-2xl overflow-hidden border border-border shrink-0" style={{ height: '358px' }}>
+            <img src="https://res.cloudinary.com/dfa0eesxx/image/upload/q_auto/f_auto/v1775273127/WhatsApp_Image_2026-03-09_at_21.08.15_3_i6xqid.jpg" alt="Sobre mim" className="w-full h-full object-cover object-center" />
           </div>
 
           <div className="flex-1">

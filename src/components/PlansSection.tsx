@@ -1,4 +1,5 @@
-import planPremium from "@/assets/plan-premium.png";
+// Opcional: Você pode remover a linha abaixo se não for usar em mais nenhum lugar
+// import planPremium from "@/assets/plan-premium.png"; 
 import planEssence from "@/assets/plan-essence.png";
 import planStart from "@/assets/plan-start.png";
 
@@ -7,21 +8,22 @@ const plans = [
     name: "Premium",
     description:
       "Esse plano é perfeito para você que já tem um escritório e deseja desligar totalmente das funções do financeiro.",
-    image: planPremium,
+    // 👇 Substitua a variável pelo link entre aspas
+    image: "https://res.cloudinary.com/dfa0eesxx/image/upload/q_auto/f_auto/v1775273127/WhatsApp_Image_2026-03-09_at_21.08.15_1_ekqgdp.jpg",
     position: "center",
   },
   {
     name: "Essence",
     description:
       "Esse plano é para com que deseja organizar seu financeiro, mas precisa controlar de conta em relação ao pagamento.",
-    image: planEssence,
+    image: "https://res.cloudinary.com/dfa0eesxx/image/upload/q_auto/f_auto/v1775273127/WhatsApp_Image_2026-03-09_at_21.08.15_2_hsus3m.jpg",
     position: "center",
   },
   {
     name: "Start",
     description:
       "Esse plano ideal para você que está abrindo um estúdio, a pouco não sabe por como começou para iniciar com as finanças.",
-    image: planStart,
+    image: "https://res.cloudinary.com/dfa0eesxx/image/upload/q_auto/f_auto/v1775273128/WhatsApp_Image_2026-03-09_at_21.08.41_xwhtan.jpg",
     position: "center 35%",
   },
 ];
@@ -37,7 +39,12 @@ const PlansSection = () => {
               className="border border-border rounded-lg p-8 flex flex-col"
             >
               <div className="w-full h-40 rounded-lg overflow-hidden border border-border mb-6">
-                <img src={plan.image} alt={plan.name} className="w-full h-full object-cover" style={{ objectPosition: plan.position }} />
+                <img 
+                  src={plan.image} 
+                  alt={plan.name} 
+                  className="w-full h-full object-cover" 
+                  style={{ objectPosition: plan.position }} 
+                />
               </div>
 
               <div className="flex-1">

@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section className="relative w-full h-80 md:h-96 overflow-hidden flex items-center justify-center">
       {/* Background photo with blur */}
       <img
-        src={heroPhoto}
+        src="https://res.cloudinary.com/dfa0eesxx/image/upload/q_auto/f_auto/v1775273127/WhatsApp_Image_2026-03-09_at_21.08.15_3_i6xqid.jpg"
         alt="Laís Correia"
         className="absolute inset-0 w-full h-full object-cover blur-[2px] scale-90 origin-top"
         style={{ objectPosition: '50% 30%' }}
