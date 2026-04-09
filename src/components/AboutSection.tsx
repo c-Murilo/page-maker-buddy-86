@@ -16,9 +16,9 @@ const AboutSection = () => {
           <div className="flex-1">
             <p className="font-body text-sm text-muted-foreground text-justify  leading-relaxed">
              Contadora especializada em transformar números em decisões inteligentes.
-Ajudo empreendedoras e empresas a organizarem suas finanças, reduzirem impostos de forma legal e crescerem com segurança.
+Ajudo empreendedoras e empresas a organizarem suas finanças crescendo com segurança.
 
-Acredito que uma contabilidade bem feita vai além de obrigações fiscais — ela traz clareza, tranquilidade e direcionamento para o seu negócio prosperar.
+Acredito que organização financeira te traz segurança,tranquilidade e direcionamento para o seu negócio prosperar.
 
 Se você busca organização, estratégia e confiança para evoluir financeiramente, estou aqui para te ajudar.
             </p>
