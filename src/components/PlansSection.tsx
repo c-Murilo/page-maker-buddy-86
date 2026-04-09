@@ -7,22 +7,22 @@ const plans = [
   {
     name: "Premium",
     description:
-      "Esse plano é perfeito para você que já tem um escritório e deseja desligar totalmente das funções do financeiro.",
+      "Esse plano é perfeito para você que já tem um estúdio e deseja desligar totalmente das funções financeiras da sua empresa sem abrir das informações gerenciais.",
     // 👇 Substitua a variável pelo link entre aspas
-    image: "https://res.cloudinary.com/dfa0eesxx/image/upload/q_auto/f_auto/v1775273127/WhatsApp_Image_2026-03-09_at_21.08.15_1_ekqgdp.jpg",
+    image: "https://res.cloudinary.com/dfa0eesxx/image/upload/q_auto/f_auto/v1775273127/WhatsApp_Image_2026-03-09_at_21.08.15_2_hsus3m.jpg",
     position: "center",
   },
   {
     name: "Essence",
     description:
-      "Esse plano é para com que deseja organizar seu financeiro, mas precisa controlar de conta em relação ao pagamento.",
-    image: "https://res.cloudinary.com/dfa0eesxx/image/upload/q_auto/f_auto/v1775273127/WhatsApp_Image_2026-03-09_at_21.08.15_2_hsus3m.jpg",
+      "Esse plano é para você que deseja organizar seu financeiro, precisa ter acesso a relatórios gerenciais mas ainda quer continuar no controle dos pagamentos das suas contas.",
+    image: "https://res.cloudinary.com/dfa0eesxx/image/upload/q_auto/f_auto/v1775273127/WhatsApp_Image_2026-03-09_at_21.08.15_1_ekqgdp.jpg",
     position: "center",
   },
   {
     name: "Start",
     description:
-      "Esse plano ideal para você que está abrindo um estúdio, a pouco não sabe por como começou para iniciar com as finanças.",
+      "Esse plano ideal para você que está abrindo um estúdio e ainda não sabe por onde começar sua organização financeira.",
     image: "https://res.cloudinary.com/dfa0eesxx/image/upload/q_auto/f_auto/v1775273128/WhatsApp_Image_2026-03-09_at_21.08.41_xwhtan.jpg",
     position: "center 35%",
   },
